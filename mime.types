@@ -21,9 +21,7 @@ types {
 
 # JavaScript
   application/javascript                js;
-  application/x-javascript				js;
   application/json                      json;
-  text/json								json;
 
 # Manifest files
   application/x-web-app-manifest+json   webapp;
@@ -102,7 +100,6 @@ types {
   text/html                             html htm shtml;
   text/mathml                           mml;
   text/plain                            txt;
-  text/x-typescript						ts tsx;
   text/vnd.sun.j2me.app-descriptor      jad;
   text/vnd.wap.wml                      wml;
   text/vtt                              vtt;
