@@ -21,7 +21,9 @@ types {
 
 # JavaScript
   application/javascript                js;
+  application/x-javascript				js;
   application/json                      json;
+  text/json								json;
 
 # Manifest files
   application/x-web-app-manifest+json   webapp;
@@ -84,6 +86,7 @@ types {
   application/x-shockwave-flash         swf;
   application/x-stuffit                 sit;
   application/x-tcl                     tcl tk;
+  application/x-typescript				ts tsx;
   application/x-x509-ca-cert            der pem crt;
   application/x-bittorrent              torrent;
   application/zip                       zip;
@@ -99,10 +102,13 @@ types {
   text/html                             html htm shtml;
   text/mathml                           mml;
   text/plain                            txt;
+  text/x-typescript						ts tsx;
   text/vnd.sun.j2me.app-descriptor      jad;
   text/vnd.wap.wml                      wml;
   text/vtt                              vtt;
   text/x-component                      htc;
+  text/x-sass                           sass;
+  text/x-scss							scss;
   text/x-vcard                          vcf;
 
 }
